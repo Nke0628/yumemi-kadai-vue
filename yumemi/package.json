@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "fix": "prettier --write . && eslint --fix .",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -16,7 +17,6 @@
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-loader": "^4.0.2",
-    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.2.0",
     "prettier": "^2.7.1",
     "vite": "^2.9.9"
