@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TopView from '../view/TopView.vue'
+import TopView from '@/view/TopView.vue'
 
 const routes = [
   {
